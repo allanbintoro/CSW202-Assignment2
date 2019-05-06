@@ -1,0 +1,74 @@
+<!--- WiFi@inter-class -->
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Bangtan Sonyeondan - Portofolio</title>
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+   		<script src="jquery/responsiveslides.min.js"></script>
+  		<link rel="stylesheet" href="jquery/responsiveslides.css">
+    	<script>
+    		$(function () {
+      			$("#slider1").responsiveSlides({
+      				speed: 800
+        		}); 
+		    });
+        </script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div id="top-navbar">
+				<ul>
+					<li><a class="active" href="index.html">Main</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="album.html">Album</a></li>
+					<li><a href="mv.html">MV</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="schedule.html">Schedule</a></li>
+					<li><a href="discography.html">Discography</a></li>
+				</ul>
+			</div>
+			<ul class="rslides" id="slider1">
+			    <li><img src="image/gallery/photo5.jpg" alt=""></li>
+			    <li><img src="image/gallery/photo4.jpg" alt=""></li>
+			    <li><img src="image/gallery/photo1.jpg" alt=""></li>
+			</ul>
+
+			<div class="sub5">
+				<div class="width25">
+					<h5><a href="gallery.html">Gallery</a></h5>
+					<hr>
+					<img src="image/gallery/photo5.jpg" alt="" width="100%">
+				</div>
+				<div class="width25">
+					<h5><a href="schedule.html">Schedule</a></h5>
+					<hr>
+					<small>06/04: Concert in Thailand<br>
+						12/04: MAP OF THE SOUL: PERSONA is released <br>
+						<a href="schedule.html">Check out More in here</a></small>
+
+				</div>
+				<div class="width25">
+					<h5><a href="mv.html">Music Video</a></h5>
+					<hr>
+					<video width="100%" controls>
+						<source src="video/BTS (방탄소년단) 작은 것들을 위한 시 (Boy With Luv) feat. Halsey Official MV.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="width25">
+					<h5><a href="news.html">News</a></h5>
+					<hr>
+					<img src="image/news3.jpg" width="100%">
+				</div>
+			</div>
+
+			<div id="bottom-navbar">
+				Copyrights &copy;2019 All rights reserved
+			</div>
+		</div>
+	</body>
+</html>
